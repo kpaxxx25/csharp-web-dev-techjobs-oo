@@ -4,7 +4,7 @@ namespace TechJobsOO
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             /*
             Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
