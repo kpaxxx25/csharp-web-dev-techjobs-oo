@@ -21,8 +21,8 @@ namespace TechJobsOO
         // Add custom Equals(), GetHashCode(), and ToString() methods.
         public override bool Equals(object obj)
         {
-            return obj is PositionType employer &&
-                   Id == employer.Id;
+            return obj is PositionType postionType &&
+                   Id == postionType.Id;
         }
 
         public override int GetHashCode()
