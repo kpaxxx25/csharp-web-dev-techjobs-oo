@@ -55,7 +55,7 @@ namespace TechJobsTests
         public void TestToString()
         {
             Job testJob = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-            var expected = $"ID: __{testJob.Id}__ \n Name: __{testJob.Name}__ \n Employer: __{testJob.EmployerName}__ \n Location: __{testJob.EmployerLocation}__ \n PositionType: __{testJob.JobType}__ \n CoreCompentency: __{testJob.JobCoreCompetency}__";
+            var expected = $"ID: {testJob.Id}\n Name: {testJob.Name}\n Employer: {testJob.EmployerName}\n Location: {testJob.EmployerLocation}\n PositionType: {testJob.JobType}\n CoreCompentency: {testJob.JobCoreCompetency}";
             Assert.AreEqual(testJob.ToString(), expected);
         }
        
